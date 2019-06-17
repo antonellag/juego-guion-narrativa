@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gravity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css" />
+
+</head>
+
+<body>
+    <section class="historia1">
+        <video autoplay muted id="video" src="videos/historia 1-.mp4" width="100%" height="100%"></video>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var video = document.getElementById("video");
+            video.play();
+            video.addEventListener('ended', function () {
+                window.location.href = 'juego.html';
+            })
+        }, false);
+    </script>
+</body>
+
+</html>

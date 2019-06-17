@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gravity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+</head>
+
+<body>
+    <div class="modal" tabindex="-1" role="dialog" id="instruccion-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Instrucciones</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Ayuda al Capitan Z a esquivar la basura contaminante del planeta, para pasar de pantalla deberas
+                        recoger las plantas que le daran nuevamente vida a lo que antes llamabamos hogar.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Jugar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="areaj">
+        <div class="obstaculos">
+
+            <div class="meteoritos"
+                style="width: 122px; height : 100px; right: -3000px; animation-duration:5s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 500px; height : 400px; right: -3150px; animation-duration:10s; animation-timing-function: ease;">
+            </div>
+            <div class="bolsa"
+                style="width: 127px; height : 85px; right: -3000px; animation-duration:9s; animation-timing-function: ease-out;">
+            </div>
+            <div class="meteoritos"
+                style="width: 200px; height : 100px; right: -3960px; animation-duration:20.5s; animation-timing-function: ease-in;">
+            </div>
+            <div class="meteoritos"
+                style="width: 400px; height : 300px; right: -3650px; animation-duration:8.5s; animation-timing-function: cubic-bezier(.85,.31,.19,.77);">
+            </div>
+            <div class="meteoritos"
+                style="width: 400px; height : 300px; right: -2950px; animation-duration:6.5s; animation-timing-function: linear;">
+            </div>
+            <div class="botella"
+                style="width: 300px; height : 350px; right: -3000px; animation-duration:18s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 400px; height : 400px; right: -3950px; animation-duration:10s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 300px; height : 200px; right: -2950px; animation-duration:15s; animation-timing-function: linear;">
+            </div>
+            <div class="bolsa"
+                style="width: 35px; height : 35px; right: -3950px; animation-duration:5s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 35px; height : 35px; right: -4950px; animation-duration:5.5s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 35px; height : 35px; right: -3950px; animation-duration:6s; animation-timing-function: linear;">
+            </div>
+            <div class="botellas"
+                style="width: 35px; height : 35px; right: -4950px; animation-duration:4.5s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 60px; height : 60px; right: -4150px; animation-duration:10s; animation-timing-function: ease;">
+            </div>
+            <div class="bolsa"
+                style="width: 50px; height : 50px; right: -5000px; animation-duration:9s; animation-timing-function: ease-out;">
+            </div>
+            <div class="meteoritos"
+                style="width: 90px; height : 90px; right: -3960px; animation-duration:20.5s; animation-timing-function: ease-in;">
+            </div>
+            <div class="meteoritos"
+                style="width: 200px; height : 100px; right: -4650px; animation-duration:8.5s; animation-timing-function: cubic-bezier(.85,.31,.19,.77);">
+            </div>
+            <div class="meteoritos"
+                style="width: 35px; height : 35px; right: -3950px; animation-duration:6.5s; animation-timing-function: linear;">
+            </div>
+            <div class="botella"
+                style="width: 50px; height : 50px; right: -3650px; animation-duration:18s; animation-timing-function: linear;">
+            </div>
+
+        </div>
+        <div class="obstaculos">
+            <div class="meteoritos"
+                style="width: 122px; height : 100px; right: -2950px; animation-duration:10s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 300px; height : 200px; right: -3950px; animation-duration:15s; animation-timing-function: linear;">
+            </div>
+            <div class="bolsa"
+                style="width: 122px; height : 100px; right: -1950px; animation-duration:5s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 122px; height : 100px; right: -6950px; animation-duration:6.5s; animation-timing-function: linear;">
+            </div>
+            <div class="meteoritos"
+                style="width: 122px; height : 100px; right: -3950px; animation-duration:4s; animation-timing-function: linear;">
+            </div>
+
+            <div class="botellas"
+                style="width: 122px; height : 100px; right: -4950px; animation-duration:2s; animation-timing-function: linear;">
+            </div>
+        </div>
+        <div class="obstaculos">
+            <div class="objeto-final"
+                style="width: 100px; height : 100px; right: -6950px; animation-duration:5s; animation-timing-function: linear;">
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+        <script>
+            $('#instruccion-modal').modal('show')
+
+            $('.meteoritos, .botella, .bolsa').mouseover(function () {
+                window.location.href = "gameover.html"
+            });
+            $('.objeto-final').mouseover(function () {
+                window.location.href = "historia2.html"
+            });
+        </script>
+    </section>
+</body>
+
+</html>

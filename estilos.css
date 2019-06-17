@@ -1,0 +1,172 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+}
+
+.areaj {
+    position: relative;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("imagenes/juego1-02.png");
+    background-repeat: repeat;
+    background-size: cover;
+    cursor: url("imagenes/cursor-04.png"), pointer;
+}
+
+.areaj:hover {
+    animation: fondoanimado 20s infinite linear;
+}
+
+.areaj:hover .meteoritos {
+    animation-name: meteorito;
+    animation-iteration-count: infinite;
+}
+
+.meteoritos {
+    z-index: 999;
+    position: relative;
+    background-image: url('imagenes/Meteorito-05.png');
+    background-size: 100%, 100%;
+    transform: translateX(-100%);
+}
+
+.areaj:hover .botella {
+    animation-name: meteorito;
+    animation-iteration-count: infinite;
+}
+
+.botella {
+    z-index: 999;
+    position: relative;
+    background-image: url('imagenes/botella-10.png');
+    background-size: 100%, 100%;
+    transform: translateX(-100%);
+}
+
+.areaj:hover .bolsa {
+    animation-name: meteorito;
+    animation-iteration-count: infinite;
+}
+
+.areaj:hover .objeto-final {
+    animation-name: meteorito;
+}
+
+.bolsa {
+    z-index: 999;
+    position: relative;
+    background-image: url('imagenes/bolsa-09.png');
+    background-size: 100%, 100%;
+    transform: translateX(-100%);
+}
+
+.objeto-final {
+    z-index: 999;
+    position: relative;
+    background-image: url('imagenes/objetofinal-11.png');
+    background-size: 100%, 100%;
+    transform: translateX(-100%);
+}
+
+@keyframes fondoanimado {
+    from {
+        background-position-x: 0px;
+    }
+
+    to {
+        background-position-x: -10000px;
+    }
+}
+
+@keyframes meteorito {
+    to {
+        right: 100%;
+        transform: translateX(100%);
+    }
+}
+
+#findejuego {
+    width: px;
+    height: px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.PortadaGameOver {
+    background-image: url("imagenes/GameOver-08.png");
+    background-size: cover;
+}
+
+.PortadaGameOver h1 {
+    color: aliceblue;
+    font-size: 140px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.accion {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: flex-end;
+    margin-right: 185px;
+}
+
+
+.portadajuego {
+    background-image: url("imagenes/PortadaJuego-01.png");
+    background-size: cover;
+}
+
+.portadajuego h1 {
+    color: aliceblue;
+    font-size: 140px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.portada {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.boton {
+    background: url(imagenes/boton-03.png);
+    width: 290px;
+    height: 78px;
+    background-size: cover;
+    margin: 27px;
+}
+
+.boton li {
+    list-style: none;
+    margin-top: 23px;
+    margin-left: 54px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.boton li a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #672fff;
+}
+
+.obstaculos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
