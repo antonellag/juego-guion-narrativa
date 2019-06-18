@@ -318,3 +318,18 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+.portadarespuesta1{
+    background-image: url("imagenes/respuestas-33.png");
+    background-size: cover;
+}
+
+.portadarespuesta2{
+    background-image: url("imagenes/respuestas-34.png");
+    background-size: cover;
+}
+
+.portadarespuesta3{
+    background-image: url("imagenes/respuestas-35.png");
+    background-size: cover;
+}
