@@ -144,7 +144,7 @@ body {
 
 .boton {
     width: 290px;
-    height: 175px;
+    height: auto;
     background-size: cover;
     margin: 27px;
 }
@@ -332,4 +332,27 @@ img {
 .portadarespuesta3{
     background-image: url("imagenes/respuestas-35.png");
     background-size: cover;
+}
+
+.contextorespuesta{
+    width: 500px;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 130px;
+}
+
+.contextorespuesta h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.caja p{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.caja li{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
 }
