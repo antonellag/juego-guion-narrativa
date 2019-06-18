@@ -179,10 +179,17 @@ a:hover {
 .contexto{
     width: 500px;
     color: #ffffff;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+.contextoestructura{
+    width: 500px;
+    color: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
 
 .contexto h1{
+    font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     padding-bottom: 30px;
 }
@@ -204,4 +211,65 @@ a:hover {
 .trivia {
 width: 500px;
 color: #ffffff;
+}
+
+.botonestructura {
+    width: 289px;
+    height: 85px;
+    background-size: cover;
+    margin: 27px;
+}
+
+.botonestructura li {
+    background: url(imagenes/boton-03.png);
+    background-size: contain;
+    padding: 19px;
+    list-style: none;
+    height: 68px;
+    margin-top: 10px;
+    margin-left: -1px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contextoestructura h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+
+img {
+    height: 300px;
+    width: 331px;
+}
+
+.botonestructura li a {
+    color: #ffffff;
+}
+
+.botonsaltear {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 289px;
+    height: 85px;
+    background-size: cover;
+    margin: 27px;
+}
+
+.botonsaltear li{
+    background: url(imagenes/boton-03.png);
+    background-size: contain;
+    padding: 19px;
+    list-style: none;
+    height: 29px;
+    margin-top: 10px;
+    margin-left: -1px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.botonsaltear li a {
+    color: #ffffff;
 }
