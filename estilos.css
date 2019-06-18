@@ -176,19 +176,20 @@ a:hover {
     height: 100%;
 }
 
-.contexto{
+.contexto {
     width: 500px;
     color: #ffffff;
-    font-family: 'Quicksand', sans-serif;;
+    font-family: 'Quicksand', sans-serif;
+    ;
 }
 
-.contextoestructura{
+.contextoestructura {
     width: 500px;
     color: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
 
-.contexto h1{
+.contexto h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     padding-bottom: 30px;
@@ -209,8 +210,8 @@ a:hover {
 }
 
 .trivia {
-width: 500px;
-color: #ffffff;
+    width: 500px;
+    color: #ffffff;
 }
 
 .botonestructura {
@@ -232,7 +233,7 @@ color: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
 
-.contextoestructura h1{
+.contextoestructura h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     padding-bottom: 30px;
@@ -258,7 +259,7 @@ img {
     margin: 27px;
 }
 
-.botonsaltear li{
+.botonsaltear li {
     background: url(imagenes/boton-03.png);
     background-size: contain;
     padding: 19px;
@@ -275,27 +276,36 @@ img {
     text-decoration: none;
 }
 
-.portadatrivia{
+.portadatrivia {
     background-image: url("imagenes/trivia-33.png");
     background-size: cover;
 }
 
-.caja{
+.caja {
     background-color: rgba(255, 255, 255, 0.3);
     width: 651px;
-    height: 500px;
     padding: 60px 111px;
     border-radius: 45px;
 }
 
-.caja h1{
+.caja h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
     padding-bottom: 30px;
     color: #ffffff;
 }
 
-.caja ol li{
+.caja ol li {
     font-size: 20px;
     margin: 20px;
+}
+
+.portadatrivia2 {
+    background-image: url("imagenes/trivia-34.png");
+    background-size: cover;
+}
+
+.portadatrivia3 {
+    background-image: url("imagenes/trivia-35.png");
+    background-size: cover;
 }
