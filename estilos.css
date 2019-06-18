@@ -272,4 +272,30 @@ img {
 
 .botonsaltear li a {
     color: #ffffff;
+    text-decoration: none;
+}
+
+.portadatrivia{
+    background-image: url("imagenes/trivia-33.png");
+    background-size: cover;
+}
+
+.caja{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 651px;
+    height: 500px;
+    padding: 60px 111px;
+    border-radius: 45px;
+}
+
+.caja h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+.caja ol li{
+    font-size: 20px;
+    margin: 20px;
 }
