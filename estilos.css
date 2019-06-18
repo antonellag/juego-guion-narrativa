@@ -109,8 +109,31 @@ body {
 
 .PortadaGameOver h1 {
     color: aliceblue;
-    font-size: 140px;
+    font-size: 105px;
     font-family: 'Permanent Marker', cursive;
+}
+
+.botongameover{
+    width: 290px;
+    height: auto;
+    background-size: cover;
+    margin: 20px 160px;
+}
+
+.botongameover li{
+    background: url(imagenes/boton-03.png);
+    background-size: contain;
+    padding: 24px;
+    list-style: none;
+    height: auto;
+    margin-top: 10px;
+    margin-left: -1px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.botongameover li a{
+    color: #ffffff;
 }
 
 .accion {
