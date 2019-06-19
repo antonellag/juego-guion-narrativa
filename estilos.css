@@ -113,14 +113,14 @@ body {
     font-family: 'Permanent Marker', cursive;
 }
 
-.botongameover{
+.botongameover {
     width: 290px;
     height: auto;
     background-size: cover;
     margin: 20px 160px;
 }
 
-.botongameover li{
+.botongameover li {
     background: url(imagenes/boton-03.png);
     background-size: contain;
     padding: 24px;
@@ -132,7 +132,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.botongameover li a{
+.botongameover li a {
     color: #ffffff;
 }
 
@@ -342,22 +342,22 @@ img {
     object-fit: cover;
 }
 
-.portadarespuesta1{
+.portadarespuesta1 {
     background-image: url("imagenes/respuestas-33.png");
     background-size: cover;
 }
 
-.portadarespuesta2{
+.portadarespuesta2 {
     background-image: url("imagenes/respuestas-34.png");
     background-size: cover;
 }
 
-.portadarespuesta3{
+.portadarespuesta3 {
     background-image: url("imagenes/respuestas-35.png");
     background-size: cover;
 }
 
-.contextorespuesta{
+.contextorespuesta {
     width: 500px;
     color: #ffffff;
     font-family: 'Quicksand', sans-serif;
@@ -370,12 +370,21 @@ img {
     padding-bottom: 30px;
 }
 
-.caja p{
+.caja p {
     color: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
 
-.caja li{
+.caja li {
     color: #ffffff;
     font-family: 'Quicksand', sans-serif;
+}
+
+.audio1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
