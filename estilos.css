@@ -109,7 +109,7 @@ body {
 
 .PortadaGameOver h1 {
     color: aliceblue;
-    font-size: 105px;
+    font-size: 95px;
     font-family: 'Permanent Marker', cursive;
 }
 
@@ -233,7 +233,7 @@ a:hover {
 }
 
 .trivia {
-    width: 500px;
+    width: 470px;
     color: #ffffff;
 }
 
@@ -306,8 +306,8 @@ img {
 
 .caja {
     background-color: rgba(255, 255, 255, 0.3);
-    width: 651px;
-    padding: 60px 111px;
+    width: 555px;
+    padding: 57px 60px;
     border-radius: 45px;
 }
 
@@ -316,9 +316,23 @@ img {
     font-size: 50px;
     padding-bottom: 30px;
     color: #ffffff;
+    text-align: center;
 }
 
-.caja ol li {
+.respuesta {
+    width: 500px;
+    color: white;
+    margin-top: 140px;
+}
+
+.respuesta h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+.respuesta ol li {
     font-size: 20px;
     margin: 20px;
 }
